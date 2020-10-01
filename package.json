@@ -1,0 +1,23 @@
+{
+  "name": "microprojects",
+  "version": "1.0.0",
+  "description": "\"HospitalManagement\"",
+  "main": "HospitalManagementApi.js",
+  "scripts": {
+    "start": "nodemon HospitalManagementApi.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "middleware": "^1.0.0",
+    "mogodb": "0.0.1-security",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.7",
+    "nodemon": "^2.0.4",
+    "server": "^1.0.30"
+  }
+}
